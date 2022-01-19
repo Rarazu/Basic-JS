@@ -2,7 +2,7 @@
 tinggi = 1.7 //diubah meter
 berat = 90
 
-bmi = berat / (tinggi*tinggi)
+bmi = Math.round(berat / (tinggi*tinggi))
 console.log('BMI Rhodey = ' +bmi);
 
 if (bmi < 18.5) {
